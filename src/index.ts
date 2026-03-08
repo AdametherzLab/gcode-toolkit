@@ -34,3 +34,11 @@ export {
   DEFAULT_VALIDATION_OPTIONS,
   GCodeValidator,
 } from "./validator.js";
+
+export {
+  type PathSegment,
+  type LayerPath,
+  type VisualizerOptions,
+  extractLayerPaths,
+  generateVisualizerHTML,
+} from "./visualizer.js";
